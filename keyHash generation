@@ -1,0 +1,1 @@
+keytool -exportcert -alias upload -keystore c:/Users/User/upload-keystore.jks | "c:/Users/User/Downloads/openssl-0.9.8k_X64 (1)/bin/openssl.exe" sha1 -binary | "c:/Users/User/Downloads/openssl-0.9.8k_X64 (1)/bin/openssl.exe" base64
